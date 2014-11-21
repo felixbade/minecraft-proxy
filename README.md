@@ -1,7 +1,7 @@
 minecraft-proxy
 ===============
 
-A Minecraft proxy that boots an AWS EC2 instance when players connect. Every hour after boot minecraft-proxy shuts the instance down if there are no players.
+A Minecraft proxy that boots an AWS EC2 instance when players connect. Every hour after boot minecraft-proxy shuts the instance down if there are no players. The idea is that end-users think this is just a normal Minecraft server. This requires some magic, and the magic might stop working in future versions.
 
 Requirements
 ------------
