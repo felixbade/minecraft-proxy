@@ -7,13 +7,13 @@ Requirements
 ------------
 
  * You need an EC2 instance (I have `t2.small`) that starts Minecraft server 1.8 on boot.
- * Make sure the Minecraft server has idle kick.
  * You need access keys to boot and shutdown your instance.
  * You need python library `boto`
 
 Usage
 -----
 
+ * Make sure the Minecraft server has idle kick.
  * Put you ec2 credintials to `~/.aws/credintials`. 
  * Edit `config.py`
  * Run `mcproxy.py`
